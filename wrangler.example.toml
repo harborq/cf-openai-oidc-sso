@@ -1,0 +1,13 @@
+name = "cf-openai-oidc-sso"
+main = "src/index.js"
+compatibility_date = "2026-06-08"
+keep_vars = true
+
+# 不提交真实 D1 database_id。
+# 使用 Cloudflare Dashboard 部署时，请在 Dashboard 设置 DB 这个 D1 binding。
+# 使用 Wrangler CLI 部署时，复制为 wrangler.toml，再取消下方注解并填入真实 database_id。
+#
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "openai_oidc_sso"
+# database_id = "00000000-0000-0000-0000-000000000000"

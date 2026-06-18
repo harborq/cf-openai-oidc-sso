@@ -1,0 +1,16 @@
+{
+  "name": "cf-openai-oidc-sso",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js",
+    "deploy:config": "node scripts/create-wrangler-config.js",
+    "deploy": "npm run deploy:config && wrangler deploy --config wrangler.deploy.toml",
+    "deploy:version": "npm run deploy:config && wrangler versions upload --config wrangler.deploy.toml"
+  },
+  "devDependencies": {
+    "wrangler": "^4.19.1"
+  }
+}
