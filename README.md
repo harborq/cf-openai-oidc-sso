@@ -418,15 +418,3 @@
   pnpm test
   pnpm check
   ```
-
-  
-
-  ## Cloudflare 官方参考
-
-  
-
-  - Workers 构建设置：https://developers.cloudflare.com/workers/ci-cd/builds/configuration/
-  - Workers运行时环境变量与Secret：https://developers.cloudflare.com/workers/configuration/environment-variables/
-  - Workers Secret：[https ://developers.cloudflare.com/workers/configuration/secrets/](https://developers.cloudflare.com/workers/configuration/secrets/)
-  - D1 建立、与控制台初始化绑定：https://developers.cloudflare.com/d1/get-started/
-  - Workers自订域名：https://developers.cloudflare.com/workers/configuration/routing/custom-domains/
